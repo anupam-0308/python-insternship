@@ -1,20 +1,19 @@
 def number_checker():
-    """Asks the user for a number and determines if it is positive, negative, or zero."""
     
-    print("--- Number Checker Program ---")
+    print("Number Checker ")
 
 user_input = input("Please enter a number: ")
 number = float(user_input)
         
 while True:       
     if number > 0:
-        print("\n✅ The number is positive.")
+        print("\n The number is positive.")
         break
     elif number < 0:
-        print("\n✅ The number is negative.")
+        print("\n The number is negative.")
         break
     elif number == 0:
-        print("\n✅ The number is zero.")
+        print("\n The number is zero.")
         break
     else:
      
@@ -24,3 +23,4 @@ while True:
 
 if __name__ == "__main__":
     number_checker()
+
