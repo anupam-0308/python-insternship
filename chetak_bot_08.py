@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-key = "AIzaSyCZd5zgG3lRkAVS22dD65lPP5E-Ze4hU8M"
+key = "put_your_key"
 genai.configure(api_key=key)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -58,3 +58,4 @@ with st.expander("See Example Prompts"):
     - Write an email for leave application.
     - Explain AI in simple words.
     """)
+
